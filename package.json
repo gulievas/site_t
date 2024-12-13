@@ -1,0 +1,15 @@
+{
+    "name": "chat-project",
+    "version": "1.0.0",
+    "description": "Сервер для чата",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^ 10.9.0",
+      "socket.io": "^4.6.0",
+      "mongoose": "^7.5.1"
+    }
+  }
+  

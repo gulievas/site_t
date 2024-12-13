@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Садоводство и природа - Хобби Платформа</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #466869;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      color: white;
+    }
+    header h2 {
+      margin: 0;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background-color: #466869;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 5px 20px;
+      border-radius: 20px;
+      background-color: #344d4e;
+      transition: background-color 0.3s;
+      
+      
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #333;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .sport-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .sport-item {
+      flex: 0 1 calc(33.333% - 20px);
+      max-width: calc(33.333% - 20px);
+      text-align: center;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .sport-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    .sport-item h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #91b9ab;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background-color: #91b9ab;
+    }
+    footer {
+      background-color: #466869;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+    footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .sport-item {
+        flex: 0 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .sport-item {
+        flex: 0 1 calc(100% - 20px);
+        max-width: calc(100% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ЕДИНОМЫШЛЕННИКИ</h1>
+    <h2>поиск людей с похожим хобби</h2>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="chat.html">Чат общий</a>
+    <a href="str_lk.html">Личный кабинет</a>
+  </nav>
+  
+  <div class="container">
+    <section>
+        <p style="font-size: 30px; font-weight: bold;">Присоединяйся в сообщество садоводов в Telegram!</p>
+
+        <a class="button" href="https://t.me/+CofOMlaOqEIwYWE6" target="_blank" 
+           style="background-color: #26A0D3; color: white; display: inline-block; padding: 20px 40px; font-size: 20px; border-radius: 10px; text-decoration: none;">
+            <img src="https://avatars.mds.yandex.net/i?id=6e904183632258198aa7677c6a5d6e6cec7cfc02-8320406-images-thumbs&n=13" 
+                 alt="Написать в Telegram" 
+                 style="width: 60px; height: 60px; vertical-align: middle; margin-right: 25px;" />
+
+        </a>
+    </section>
+</div>
+
+</body>
+</html>
